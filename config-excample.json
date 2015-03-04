@@ -1,0 +1,33 @@
+﻿{
+    // Report Server URLlocalhost
+    "Url": "http://localhost/reportserver",
+    // Credentials to connect to report server
+    "UserName": "Administrator",
+    "Password": "password",
+
+    // Root folder for deployment
+    "RootFolder": "/",
+
+    // Data source settings
+    "DataSource": {
+        // Path to the data sources. Relative to the root.
+        "Path": "DataSources",
+
+        // Connection string and credentials to connect data source to the database
+        "ConnectionString": "Data Source=.;Initial Catalog=MyDB",
+        "Username": "sa",
+        "Password": "password"
+    },
+
+    // Model settings
+    "Model": {
+        // Path to the models. Relative to the root.
+        "Path": "Models"
+    },
+
+    // Report settings
+    "Report": {
+        // Path to the reports. Relative to the root.
+        "Path": "Reports"
+    }
+}
